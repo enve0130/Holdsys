@@ -9,8 +9,9 @@ namespace Holdsystemet
             get => id;
             set
             {
-                if (value > 0) id = value;
-                else Console.WriteLine("Fejl: Sudie nummer må ikke være 0");
+                    if (value > 0) id = value;
+                    else throw new Exception("Fejl: Sudie nummer må ikke være 0");
+
             }
         }
 
@@ -21,7 +22,7 @@ namespace Holdsystemet
             set
             {
                 if (value.Length >= 2) navn = value;
-                else Console.WriteLine("Navn skal være mindst to bogstaver");
+                else throw new Exception("Navn skal være mindst to bogstaver");
             }
         }
 		public string Adresse { get; set; }
@@ -32,7 +33,8 @@ namespace Holdsystemet
             get => cpr;
             set
             {
-                if (value.Length != 11) Console.WriteLine("Cpr skal være med bindestreg og præcis 10 tal");
+                if (value.Length != 11)
+                    throw new Exception("Cpr skal være med bindestreg og præcis 10 tal");
                 else cpr = value;
             }
         }

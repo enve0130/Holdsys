@@ -3,6 +3,32 @@ class Program
 {
     static void Main(string[] args)
     {
+        try //id = 0
+        {
+            Studerende stest1 = new Studerende(0, "Hans Jensen", "Gadevej 1", "101002-8289");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"{ex.Message}");
+        }
+
+        try //navn = x
+        {
+            Studerende stest1 = new Studerende(01, "x", "Gadevej 1", "101002-8289");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Fejl: {ex.Message}");
+        }
+
+        try //Cpr mindre end 11 tegn
+        {
+            Studerende stest1 = new Studerende(1, "Hans Jensen", "Gadevej 1", "101002");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Fejl: {ex.Message}");
+        }
         Studerende s1 = new Studerende(01, "Hans Jensen", "Gadevej 1", "101002-8289");
         Studerende s2 = new Studerende(02, "Søren Sol", "Stien 12", "010102-8391");
         Studerende s3 = new Studerende(03, "Falah Salah", "Falkevej 3", "111101-2781");
@@ -41,9 +67,8 @@ class Program
         h3.Adderstuderende(s8);
         h3.Adderstuderende(s9);
 
-        Console.WriteLine(h1);
-        Console.WriteLine(h2);
-        Console.WriteLine(h3);
+        h1.PrintHoldetsElever();
+
 
 
 

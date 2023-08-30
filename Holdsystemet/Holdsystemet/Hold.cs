@@ -30,6 +30,14 @@ namespace Holdsystemet
 			Elever.Remove(studerende.ID);
 		}
 
+		public void PrintHoldetsElever()
+		{
+			foreach (var h in Elever.Values)
+			{
+				Console.WriteLine(h);
+			}
+		}
+
         public override string ToString()
         {
             return $"Uddannelse: {Type}, By: {Lokation},Retning: {Betegnelse}, År: {OptagelsesAr}, Optageget Studerende: {Elever}";
