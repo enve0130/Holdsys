@@ -1,0 +1,15 @@
+/Users/enverm1/Projects/Holdsys/Holdsystemet/Holdsystemet/bin/Debug/net6.0/Holdsystemet
+/Users/enverm1/Projects/Holdsys/Holdsystemet/Holdsystemet/bin/Debug/net6.0/Holdsystemet.deps.json
+/Users/enverm1/Projects/Holdsys/Holdsystemet/Holdsystemet/bin/Debug/net6.0/Holdsystemet.runtimeconfig.json
+/Users/enverm1/Projects/Holdsys/Holdsystemet/Holdsystemet/bin/Debug/net6.0/Holdsystemet.dll
+/Users/enverm1/Projects/Holdsys/Holdsystemet/Holdsystemet/bin/Debug/net6.0/Holdsystemet.pdb
+/Users/enverm1/Projects/Holdsys/Holdsystemet/Holdsystemet/obj/Debug/net6.0/Holdsystemet.csproj.AssemblyReference.cache
+/Users/enverm1/Projects/Holdsys/Holdsystemet/Holdsystemet/obj/Debug/net6.0/Holdsystemet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/enverm1/Projects/Holdsys/Holdsystemet/Holdsystemet/obj/Debug/net6.0/Holdsystemet.AssemblyInfoInputs.cache
+/Users/enverm1/Projects/Holdsys/Holdsystemet/Holdsystemet/obj/Debug/net6.0/Holdsystemet.AssemblyInfo.cs
+/Users/enverm1/Projects/Holdsys/Holdsystemet/Holdsystemet/obj/Debug/net6.0/Holdsystemet.csproj.CoreCompileInputs.cache
+/Users/enverm1/Projects/Holdsys/Holdsystemet/Holdsystemet/obj/Debug/net6.0/Holdsystemet.dll
+/Users/enverm1/Projects/Holdsys/Holdsystemet/Holdsystemet/obj/Debug/net6.0/refint/Holdsystemet.dll
+/Users/enverm1/Projects/Holdsys/Holdsystemet/Holdsystemet/obj/Debug/net6.0/Holdsystemet.pdb
+/Users/enverm1/Projects/Holdsys/Holdsystemet/Holdsystemet/obj/Debug/net6.0/Holdsystemet.genruntimeconfig.cache
+/Users/enverm1/Projects/Holdsys/Holdsystemet/Holdsystemet/obj/Debug/net6.0/ref/Holdsystemet.dll
